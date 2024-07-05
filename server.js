@@ -13,7 +13,12 @@ bot.start(async(ctx) =>{
 bot.command('test', async(ctx) =>{
 
     await ctx.reply('This is test command');
-})
+});
+
+bot.command('rakesh', async(ctx) =>{
+
+    await ctx.reply('Rakesh 1 triple rice full jaldi bana');
+});
 
 
 // const express = require("express");
