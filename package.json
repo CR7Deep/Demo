@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --env-file=.env server.js"
+    
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
     "nodemon": "^3.1.4"
   },
   "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
     "openai": "^4.52.3",
     "telegraf": "^4.16.3"
   }
