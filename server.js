@@ -10,6 +10,10 @@ bot.start(async(ctx) =>{
     await ctx.reply(`Hey!! ${ctx.chat.first_name} Welcome to Ichiban Bot`);
 });
 
+bot.command('test', async(ctx) =>{
+
+    await ctx.reply('This is test command');
+})
 
 
 // const express = require("express");
